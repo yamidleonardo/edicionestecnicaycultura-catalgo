@@ -1,0 +1,163 @@
+@charset "utf-8";
+*{margin:0;}
+article{
+	display: inline-block;
+}
+body{
+	background:#FFFFFF;
+	color:#000000;
+	font-family:Arial;
+	font-size:16px;
+	margin:0;
+}
+h1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#FFFFFF;
+	font-size:36px;
+}
+h2{
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#CCCCCC;
+	font-size:28px;
+}
+img{
+	width:400px;
+	height:400px;
+}
+p.titulolibro {
+	font-weight:bold;
+	font-size:22px;
+}
+p.autorlibro {
+	color:#666666;
+	font-weight:bold;
+	font-size:20px;
+}
+p.editorial {
+	font-size:18px;
+	color:#999999;
+
+}
+.buho img{
+	width:149px;
+	height:188px;
+}
+#whatsapp{
+	width:22px;
+	height:22px;
+}
+#contenedor{
+	background:#FFFFFF;
+	margin:0 auto;
+	max-width:1000px;
+}
+#datos{
+	background:#245D96;
+	text-align:center;
+	color:#FFFFFF;
+	padding:20px;
+}
+#datos a{
+	color:#0099FF;
+}
+#titular{
+	margin:10px auto 0 auto;
+	text-align:center;
+	font-stretch:semi-condensed;
+	text-transform:uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:40px;
+	color:#336699;
+}
+#websites{
+	font-size:0;
+	text-align:center;
+}
+#websites article{
+	max-width:600px;
+	background:#F8F8F8;
+	border-radius:5px;
+	color: black;
+	font-size:18px;
+	margin:10px 20px;
+	padding:10px;
+}
+#websites p {
+	max-width:400px;
+	max-height:400px;	
+	display:block;	
+	text-align:left;
+	
+}
+
+@media screen and (max-width:800px){
+	h1{
+		font-size:28px;
+	}
+	h2{
+		font-size:22px;
+	}
+    img{
+	    width:100%;
+	    height:auto;
+    }
+	.buho img{
+		width:120px;
+		height:151px;
+	}
+	#whatsapp{
+		width:18px;
+		height:18px;
+	}
+	#titular{
+		font-size:30px;
+	}
+	p.titulolibro {
+		font-size:20px;
+	        width:100%;
+	}
+	p.autorlibro {
+		font-size:18px;
+	        width:100%;
+	}
+	p.editorial {
+		font-size:16px;
+	        width:100%;
+	}
+}
+@media screen and (max-width:460px){
+	h1{
+		font-size:22px;
+	}
+	h2{
+		font-size:18px;
+	}
+    img{
+	    width:100%;
+	    height:auto;
+    }
+	.buho img{
+		width:100px;
+		height:126px;
+	}
+	#whatsapp{
+		width:14px;
+		height:14px;
+	}
+	#titular{
+		font-size:20px;	
+	}
+	p.titulolibro {
+		font-size:18px;
+	        width:100%;
+	}
+	p.autorlibro {
+		font-size:16px;
+	        width:100%;
+	}
+	p.editorial {
+		font-size:14px;
+	        width:100%;
+	}
+}
+/* CSS Document */
